@@ -1,0 +1,61 @@
+
+.container {
+  margin-top: 05%;
+  width: 100%;
+  height: 800px;
+  background-color: rgb(240,241,241);
+  position: relative;
+}
+nav img {
+  max-height:15%;
+  margin-top: 1em;
+}
+.middle h1 {
+  text-align: center;
+  margin-top:8%;
+  color: white;
+  font-size: 6em;
+}
+.navbar {
+  background-color: transparent;
+  border:none;
+}
+.leaf-left {
+  position: absolute;
+  z-index: 50;
+  transform: rotate(120deg);
+  left: 50px;
+  top:-10px;
+  width: 150px;
+}
+.leaf-left-2 {
+  position: absolute;
+  z-index: 51;
+  transform: rotate(90deg);
+  left: 40px;
+  top:-100px;
+  width: 175px
+}
+.leaf-left-3 {
+  position: absolute;
+  z-index: 51;
+  transform: rotate(45deg);
+  left: 40px;
+  bottom:-100px;
+  width: 175px
+}
+
+.leaf-left-4 {
+  position: absolute;
+  z-index: 51;
+  transform: rotate(80deg);
+  left: 40px;
+  bottom:-100px;
+  width: 175px
+}
+
+@media (max-width: 724px) {
+  .leaf-left, .leaf-left-2, .leaf-left-4, .leaf-left-3 {
+    display: none;
+  }
+}
